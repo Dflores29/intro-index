@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="index.php" method="POST">
+
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="spongebob" minlenght="6" maxlenght="15" required> <br>
+
+        <label for="password">password</label>
+        <input type="password" id="password "> <br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="SSpongebob@gmail.com"> <br>
+
+        <!-- allows you to put text -->
+
+        <label for="phone">phone</label>
+        <input type="password" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+        <label for="bday">birthdate</label>
+        <input type="date" id="bday"> <br>
+
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"> <br>
+
+        <label for="title">Mr.:</label>
+        <input type="radio" id="Mr." value="Mr.">
+        <label for="title">Ms.:</label>
+        <input type="radio" id="Ms." value="Ms.">
+        <label for="title">PhD.</label>
+        <input type="radio" id="Phd." value="Phd.">
+
+        <input type="reset"><br>
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
